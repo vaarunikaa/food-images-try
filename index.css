@@ -1,0 +1,50 @@
+body{
+	background-image: url(frontpage.jpg);
+	background-size: cover;
+	margin-top: 10px;
+	margin-left: 0px;
+
+}
+
+h1{
+
+font-family: 'Lobster', cursive;
+text-transform: uppercase;
+color: black;
+border-bottom: 10px solid #8ABD5F;
+border-right:10px solid #8ABD5F;
+width: 410px;
+text-align: left;
+box-shadow: 4px 4px #36DE36;
+background: rgba(255,0,0,0.2);
+transition: all 0.5s ease;
+padding: 10px;
+
+}
+h1:hover{
+	background: rgba(0,255,2,0.2);
+	transform:scale(1.1);
+    text-align: center;
+	padding:15px;
+}
+
+h2{
+	font-family: 'Lobster', cursive;
+	text-align:center;
+
+}
+
+a{
+	display:block;
+	text-align: center;
+	font-size: 2rem;
+	transition: all 1s;
+	color: #450024;
+    
+
+}
+a:hover{
+    transform: scale(1.5);
+    color: #537614
+
+}

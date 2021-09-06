@@ -1,0 +1,57 @@
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+
+h1{
+	
+	text-transform: uppercase;
+	font-family: 'lobster',cursive;
+	font-size: 3em;
+	color: pink;
+	background-color: #9BF78C;
+	border-bottom: 20px solid #89E24A;
+	width: 400px;
+	text-align: center;
+	border-right: 20px solid #89E24A;
+	box-shadow: 4px 4px 4px #EF7596;
+}
+
+.class{
+	display: flex;
+	flex: wrap;
+	justify-content: center;
+
+}
+img{
+	width: 300px;
+	height: 300px;
+	margin:10px;
+	padding: 10px;
+	transition: all 1s;
+
+
+}
+img:hover{
+
+	 cursor: pointer;
+	 transform: scale(1.1);
+
+	 
+
+}
+
+a{
+	font-size: 20px;
+	font-family: 'Lobster',cursive;
+	transition: all 0.5s ease;
+    background: rgba(255,0,0,0.5);
+    padding: 10px;
+
+}
+a:hover {
+  background: rgba(0,255,0,0.5);
+  padding: 20px;
+  
+
+}
